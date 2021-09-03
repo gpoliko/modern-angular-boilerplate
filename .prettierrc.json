@@ -1,0 +1,23 @@
+{
+	"printWidth": 100,
+	"tabWidth": 2,
+	"singleQuote": true,
+	"semi": true,
+	"quoteProps": "preserve",
+	"trailingComma": "none",
+	"bracketSpacing": false,
+	"overrides": [
+		{
+			"files": "*.html",
+			"options": {
+				"parse": "html"
+			}
+		},
+		{
+			"files": "*.component.html",
+			"options": {
+				"parser": "angular"
+			}
+		}
+	]
+}
