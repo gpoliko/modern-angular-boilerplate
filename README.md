@@ -1,4 +1,4 @@
-# Modern Angular Boilerplate 2021
+# Modern Angular Boilerplate
 
 Currently reworking the [Angular CLI](https://github.com/angular/angular-cli) build of Angular to utilise modern and non-deprecated technologies.
 
