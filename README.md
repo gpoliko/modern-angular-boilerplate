@@ -1,10 +1,19 @@
-# ModernAngularBoilerplate
+# Modern Angular Boilerplate 2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+Currently reworking the [Angular CLI](https://github.com/angular/angular-cli) build of Angular to utilise modern and non-deprecated technologies.
+
+The technologies this boilerplate will use are:
+
+- [Jest](https://github.com/facebook/jest) for executing unit tests.
+- [Cypress](https://github.com/cypress-io/cypress) and [Playwright](https://github.com/microsoft/playwright) for executing end-to-end tests.
+- [TailwindCSS](https://github.com/tailwindlabs/tailwindcss) for styling.
+- [NX](https://github.com/nrwl/nx) to scale our Angular apps.
+
+> NOTE: This is a personal implementation of how I would setup and begin building an Angular application.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Code scaffolding
 
@@ -16,11 +25,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm test` to execute the unit tests via Jest.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `npm test:e2e` to execute the end-to-end tests via Cypress.
+
+> Currently investigating Playwright as an alternative for executing e2e tests, as it suppports Safari and Cypress does not.
 
 ## Further help
 
