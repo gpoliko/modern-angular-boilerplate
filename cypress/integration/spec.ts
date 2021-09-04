@@ -3,5 +3,8 @@ describe('My First Test', () => {
     cy.visit('/');
     cy.contains('Welcome');
     cy.contains('modern-angular-boilerplate app is running!');
+    cy.contains('New Component').click();
+    cy.contains('ng generate component xyz');
+    cy.contains('Learn Angular').click();
   });
 });
